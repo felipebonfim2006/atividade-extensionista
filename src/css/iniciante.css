@@ -1,0 +1,122 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+/* Main Styles */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Section Styles */
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #35424a;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin-left: 20px;
+    text-align: center;
+}
+
+li a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+/* Image Styles */
+.imagem-regra {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navigation Button Styles */
+.navegacao-final {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botao-proximo, .botao-voltar {
+    display: inline-block;
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Footer Styles */
+footer {
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
