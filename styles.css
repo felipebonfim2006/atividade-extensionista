@@ -1,9 +1,11 @@
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Body Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -12,6 +14,7 @@ body {
     padding: 20px;
 }
 
+/* Header Styles */
 header {
     background: #35424a;
     color: #ffffff;
@@ -19,7 +22,18 @@ header {
     text-align: center;
     margin-bottom: 20px;
     margin: 0 auto;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+/* Main Styles */
+main {
     max-width: 1000px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -33,6 +47,7 @@ p {
     text-align: center;
 }
 
+/* Section Styles */
 section {
     max-width: 800px;
     margin: 0 auto;
@@ -77,12 +92,11 @@ li a {
     display: block;
 }
 
-
+/* Footer Styles */
 footer {
     padding: 10px 0;
     background: #35424a;
     color: #ffffff;
-    max-width: 1000px;
     margin: 0 auto;
     margin-top: 20px;
 
