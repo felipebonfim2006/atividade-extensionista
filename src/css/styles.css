@@ -42,73 +42,123 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-}
-
-h3 {
-    font-size: 1.4em;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 p {
     margin-bottom: 15px;
     text-align: center;
 }
 
-/* Section Styles */
-section {
+/* Section Styles Resources */
+.secao-recursos {
     max-width: 800px;
     margin: 0 auto;
     background: #ffffff;
     padding: 20px;
     border-radius: 5px;
-    margin-bottom: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-section h2 {
+.secao-recursos h2 {
     margin-bottom: 15px;
     color: #35424a;
     text-align: center;
 }
 
-ul {
+.secao-recursos ul {
     list-style: none;
     margin-left: 20px;
     text-align: center;
 }
 
-li a {
+.secao-recursos ul li {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    max-width: 350px;
+    border-radius: 20px;
+    position: relative;
+    background-color: #b9b9b9;
+    color: black;
+}
+
+.secao-recursos ul li:hover {
+    background-color: #35424a;
+    color: white;
+    cursor: pointer;
+}
+
+.secao-recursos ul li a {
     text-decoration: none;
     color: inherit;
     display: block;
 }
 
-/* Image Styles */
-.imagem-regra {
-    display: block;
+/*/ Section Styles Card */
+
+.card-sessao {
+    max-width: 800px;
     margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-sessao h2 {
+    margin-bottom: 15px;
+    color: #35424a;
+    text-align: center;
+}
+
+.card-sessao ul {
+    list-style: none;
+    margin-left: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.card-sessao ul li {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    max-width: 350px;
+    border-radius: 10px;
+    position: relative;
+    background-color: #b9b9b9;
+    color: black;
+}
+
+.card-sessao img {
+    display: block;
+    margin: 10px auto;
+    margin-right: 10px;
     max-width: 100%;
     height: auto;
 }
 
-/* Navigation Button Styles */
+/* Extra Tips */
+
+.dica-extra {
+    background-color: #e2e2e2;
+    border-left: 6px solid #35424a;
+    margin: 20px 0;
+    padding: 10px 15px;
+}
+
+/* Navigation */
+
 .navegacao-final {
     text-align: center;
     margin-top: 20px;
 }
 
-.botao-proximo, .botao-voltar {
+.navegacao-final a {
     display: inline-block;
-    background: #35424a;
-    color: #ffffff;
+    margin: 0 10px;
     padding: 10px 20px;
+    background-color: #35424a;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
-    margin: 5px;
 }
 
 /* Footer Styles */
