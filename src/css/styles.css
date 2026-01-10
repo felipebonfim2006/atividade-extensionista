@@ -153,8 +153,7 @@ p {
 
 .navegacao-final a {
     display: inline-block;
-    margin: 0 10px;
-    margin-bottom: 8px;
+    margin: 0 10px 8px 10px;
     padding: 10px 20px;
     background-color: #35424a;
     color: #ffffff;
