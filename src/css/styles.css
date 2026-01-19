@@ -13,19 +13,6 @@
                 opacity 0.25s ease;
 }
 
-/* ===== RESET ===== */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    transition: background-color 0.25s ease,
-                color 0.25s ease,
-                transform 0.25s ease,
-                box-shadow 0.25s ease,
-                opacity 0.25s ease;
-}
-
 /* ===== BODY + TRANSIÇÃO DE PÁGINA ===== */
 body {
     background-color: #f8fafc;
